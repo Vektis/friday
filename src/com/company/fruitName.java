@@ -22,6 +22,28 @@ public class fruitName {
         else if(f.equals("pear")) {
             return 102;
         }
+        else if (f.equals("lemon")){
+            return 17;
+        }
+        else if(f.equals("watermelon")){
+            return 85;
+        }
+        else if (f.equals("strawberry")){
+            return 4;
+        }
+        else if (f.equals("kiwi")){
+            return 42;
+        }
+        else if (f.equals("pineapple")){
+            return 452;
+        }
+        else if (f.equals("starfruit")){
+            return 28;
+        }
+        else if (f.equals("peach")){
+            return 59;
+        }
+
             else {
             return 0;
         }

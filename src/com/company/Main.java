@@ -9,6 +9,9 @@ public class Main {
         System.out.println("Enter a fruit: ");
         String frui = input.next();
         fruitName fr = new fruitName(frui);
+        if (fr.calCount() == 0){
+            System.out.println("Sorry,we don't know how many calories " + frui + " has.");
+        }
         System.out.println("Your fruit has " + fr.calCount() + " calories.");
     }
 }
